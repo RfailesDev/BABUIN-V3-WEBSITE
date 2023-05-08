@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style_login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>BABUIN-V3</title>
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/main.js"></script>
+
+<div class="header">
+    <div class="container">
+        <dev class="header__inner">
+            <div class="header__logo">|BABUIN-V3</div>
+        </div>
+    </div>
+</div>
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h2 class="intro__title">BABUIN-V3</h2>
+            <h1 class="intro__title_second">
+                Для входа введите ваш Secret-Key:<br><br>
+                <span style="color: #737373; font-size: 20px;"><i>*Его можно получить в телеграм-боте, используя команду /SecretKey</i></span>
+            </h1>
+
+            <div class="textbox-wrapper">
+               <input class="textbox" type="text" id="itemid" name="itemid" placeholder="Ваш secret-key...">
+            </div>
+
+            <nav class="a_btns">
+                <a class="btn" id="login_button" onclick="Login()">Войти</a>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
